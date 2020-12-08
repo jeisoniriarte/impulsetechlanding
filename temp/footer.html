@@ -1,0 +1,65 @@
+<div class="footer-wrap">
+    <ul class="social row around-xs">
+        <li class="facebook col-xs-4 col-sm-2">
+            <a href="https://www.facebook.com/buzzworthystudio/" target="_blank">
+                <span>facebook</span>
+                <img data-alt-src="img/social/social-facebook.gif" src="img/social/social-facebook.png" alt="Facebook">
+            </a>
+        </li>
+        <li class="twitter col-xs-4 col-sm-2">
+            <a href="https://twitter.com/GetBuzzworthy?lang=en" target="_blank">
+                <span>twitter</span>
+                <img data-alt-src="img/social/social-twitter.gif" src="img/social/social-twitter.png" alt="Twitter">
+            </a>                </li>
+        <li class="instagram col-xs-4 col-sm-2">
+            <a href="https://www.instagram.com/buzzworthy.studio/" target="_blank">
+                <span>instagram</span>
+                <img data-alt-src="img/social/social-instagram.gif" src="img/social/social-instagram.png" alt="Instagram">
+            </a>                </li>
+        <li class="dribbble col-xs-4 col-sm-2">
+            <a href="https://dribbble.com/Buzzworthy" target="_blank">
+                <span>dribbble</span>
+                <img data-alt-src="img/social/social-dribbble.gif" src="img/social/social-dribbble.png" alt="Dribbble">
+            </a>                </li>
+        <li class="behance col-xs-4 col-sm-2">
+            <a href="https://www.behance.net/BuzzworthyStudio" target="_blank">
+                <span>behance</span>
+                <img data-alt-src="img/social/social-behance.gif" src="img/social/social-behance.png" alt="Behance">
+            </a>                
+        </li>
+        <li class="linkedin col-xs-4 col-sm-2">
+            <a href="https://www.linkedin.com/company/buzzworthy-studio-inc-/" target="_blank">
+                <span>linkedin</span>
+                <img data-alt-src="img/social/social-linkedin.gif" src="img/social/social-linkedin.png" alt="Linkedin">
+            </a>                
+        </li>
+    </ul>
+    <address class="footer-contact">
+        <a class="text-link" href="mailto:hello@buzzworthystudio.com?Subject=Hello%20Buzzworthy">hola@theimpulsetech.com</a>
+
+    </address>
+    <div class="copyright">
+        <p>Buzzworthy Studio © 2020</p>
+    </div>
+    <div id="preload" style="display: none;">
+       <img src="img/social/social-dribbble.gif" width="1" height="1" alt="Dribbble">
+       <img src="img/social/social-behance.gif" width="1" height="1" alt="Behance">
+       <img src="img/social/social-instagram.gif" width="1" height="1" alt="Instagram">
+       <img src="img/social/social-twitter.gif" width="1" height="1" alt="Twitter">
+       <img src="img/social/social-facebook.gif" width="1" height="1" alt="facebook">
+       <img src="img/social/social-linkedin.gif" width="1" height="1" alt="linkedin">
+    </div>
+    <script>
+        var sourceSwap = function () {
+            var $this = $(this);
+            var newSource = $this.data('alt-src');
+            $this.data('alt-src', $this.attr('src'));
+            $this.attr('src', newSource);
+        };
+        $('.social a').hover(function() {
+            $('img', this).attr('src', sourceSwap)
+        }, function() {
+            $('img', this).attr('src', sourceSwap)
+        });
+    </script>
+</div>
