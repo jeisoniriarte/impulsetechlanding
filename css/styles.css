@@ -188,16 +188,16 @@
     content: "#proyectos"
 }
 .navlinks li:nth-of-type(2) .fake-link:before {
-    content: "studio."
+    content: "#impulse"
 }
 .navlinks li:nth-of-type(3) .fake-link:before {
-    content: "team."
+    content: "#equipo"
 }
 .navlinks li:nth-of-type(4) .fake-link:before {
-    content: "contact."
+    content: "#contacto"
 }
 .navlinks li:nth-of-type(5) .fake-link:before {
-    content: "funhouse."
+    content: "#reactivex"
 }
 .link-mask-wrap {
     position: absolute;
