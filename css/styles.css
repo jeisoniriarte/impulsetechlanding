@@ -6423,7 +6423,8 @@ video {
     letter-spacing: .1em;
     padding: 1.5em 2em;
     border-radius: 5px;
-    background-color: #D6372E;
+    /*background-color: #D6372E;*/
+    background-color: #FE6700;
     color: #fff
 }
 .js-form-response .social {
@@ -6547,7 +6548,8 @@ button.form-btn {
     font-family: "Montserrat", "Lato", sans-serif;
     font-weight: 600;
     border: none;
-    background-color: #D6372E;
+    /*background-color: #D6372E;*/
+    background-color: #FE6700;
     color: #fff;
     padding: 0px;
     font-size: .75em;
@@ -6694,7 +6696,8 @@ section.main-type .small {
     -webkit-transform: scale(0.8);
     -o-transform: scale(0.8);
     -ms-transform: scale(0.8);
-    background-color: #D6372E;
+    /*background-color: #D6372E;*/
+    background-color: #FE6700;
     background-size: 35% 35%
 }
 .js-form-link.selected .form-icon img,
@@ -9492,7 +9495,9 @@ header .header-description {
     -moz-transition: all 1250ms cubic-bezier(0.77, 0, 0.175, 1);
     -o-transition: all 1250ms cubic-bezier(0.77, 0, 0.175, 1);
     position: fixed;
-    background-color: #D6372E;
+    /*background-color: #D6372E;*/
+    background-color: #FE6700;
+
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0, 0);
@@ -10849,7 +10854,7 @@ header .header-description {
         width: 250%;
         height: auto;
         padding-top: 250%;
-        background-color: #D6372E
+        background-color: #00D69A
     }
     #loader .circle-first,
     #loader .circle-second {
